@@ -1,7 +1,7 @@
 {
   "name": "reactclone",
   "version": "0.1.0",
-  "homepage": "https://havionsolutions.com",
+  "homepage": "/",
   "private": true,
   "scripts": {
     "dev": "next dev",
