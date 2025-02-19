@@ -33,8 +33,8 @@ const Footer = () => {
                  
                                         <FontAwesomeIcon icon={faPhone}  style={{ marginRight: '10px',}}   />
 
-                    <a href="tel:+123456789"  style={{ textDecoration: 'none', color: 'white', }} >
-                      +91 90423 33092
+                    <a href="tel:+918838210022"  style={{ textDecoration: 'none', color: 'white', }} >
+                      +91 88382 10022
                     </a>
                   </li>
                   <li style={{paddingTop:'8px'}}>
@@ -73,7 +73,7 @@ const Footer = () => {
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/havion-solutions-inc/"
                   target="_blank"
                   className="social-icon"
                   style={{ backgroundColor: '#0077B5' }}
