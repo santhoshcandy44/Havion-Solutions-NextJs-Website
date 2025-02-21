@@ -64,7 +64,7 @@ alt="Email"
                       textAlign: 'center',
                     }}
                   >
-                    +91 90423-33092
+                    +91 88382-100229
                     <br />
                     <span style={{ color: 'gray' }}>Phone Number</span>
                   </h6>
