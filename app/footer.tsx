@@ -27,7 +27,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faLocationDot}    style={{ marginRight: '10px'}} />
                     
 
-                    9/120, Mottaiyan ST,<br/>Perumal Kovil, Omlaur,<br/>Salem, 636 455.
+                    Omlaur,<br/>Salem, 636 455.
                   </li>
                   <li style={{paddingTop:'8px'}}>
                  
