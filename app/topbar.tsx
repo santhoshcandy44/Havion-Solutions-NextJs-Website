@@ -24,7 +24,7 @@ const TopBar = () => {
             color: 'white',
           }}
         >
-          info@havionsolutions.com
+          contact@havionsolutions.com
         </a>
       </div>
       <div className="social-icons">
