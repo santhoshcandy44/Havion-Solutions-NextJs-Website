@@ -90,7 +90,7 @@ alt="Dail"
                       wordWrap: 'break-word',
                     }}
                   >
-                    info@havionsolutions.com
+                    contact@havionsolutions.com
                     <br />
                     <span style={{ color: 'gray' }}>Email</span>
                   </h6>

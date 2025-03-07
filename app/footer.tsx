@@ -40,7 +40,7 @@ const Footer = () => {
                                         <FontAwesomeIcon icon={faEnvelope}  style={{ marginRight: '10px'}}  />
 
                     <a href="mailto:info@example.com" style={{ textDecoration: 'none', color: 'white' }}>
-                      info@havionsolutions.com
+                      contact@havionsolutions.com
                     </a>
                   </li>
                 </ul>
