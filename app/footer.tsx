@@ -25,16 +25,14 @@ const Footer = () => {
                   <li style={{paddingTop:'8px'}}>
                    
                     <FontAwesomeIcon icon={faLocationDot}    style={{ marginRight: '10px'}} />
-                    
-
-                    Omlaur,<br/>Salem, 636 455.
+                   Omlaur,<br/>Salem, 636 455.
                   </li>
                   <li style={{paddingTop:'8px'}}>
                  
                                         <FontAwesomeIcon icon={faPhone}  style={{ marginRight: '10px',}}   />
 
-                    <a href="tel:+918838210022"  style={{ textDecoration: 'none', color: 'white', }} >
-                      +91 88382 10022
+                    <a href="tel:+919042333092"  style={{ textDecoration: 'none', color: 'white', }} >
+                      +91 90423 33092
                     </a>
                   </li>
                   <li style={{paddingTop:'8px'}}>
