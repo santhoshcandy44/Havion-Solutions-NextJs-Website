@@ -114,8 +114,8 @@ const Footer = () => {
                   <li>
                   <FontAwesomeIcon  style={{ marginRight: '8px' }} icon={faAngleRight}  />
 
-                    <a className="link-suppress" href="/career">
-                      Career
+                    <a className="link-suppress" href="/careers">
+                      Careers
                     </a>
                   </li>
                 </ul>
