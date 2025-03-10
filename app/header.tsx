@@ -79,12 +79,12 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/career/" passHref className={(pathname==="/career/" ? 'active' : '')}
+                <Link href="/careers/" passHref className={(pathname==="/careers/" ? 'active' : '')}
                 
-                onClick={e=>reLoad("/career/")}
+                onClick={e=>reLoad("/careers/")}
 
                 >
-                Career
+                Careers
                 </Link>
               </li>
             </ul>

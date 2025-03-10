@@ -1,4 +1,4 @@
-import './career.css'
+import './careers.css'
 import Footer from "../footer";
 import Header from "../header"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,10 +8,10 @@ import TopBar from "../topbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Career",
+  title: "Careers",
   description: "At our company, we are always looking for talented individuals to join our growing team. If you are passionate about technology, driven to succeed, and eager to learn, we want to hear from you.",
   alternates: {
-    canonical: 'https://havionsolutions/career/',
+    canonical: 'https://havionsolutions/careers/',
   },
 };
 
@@ -73,7 +73,7 @@ const Career = () => {
           <p>
             If you are interested in any of the open positions, please send your
             resume and cover letter to{' '}
-            <a href="mailto:info@havionsolutions.com">info@havionsolutions.com</a>.
+            <a href="mailto:careers@havionsolutions.com">careers@havionsolutions.com</a>.
           </p>
         </div>
       </div>
