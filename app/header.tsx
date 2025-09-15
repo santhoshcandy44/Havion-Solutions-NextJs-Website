@@ -66,7 +66,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink href="/careers/" s
+                <NavLink href="/careers/" 
                 >
                 Careers
                 </NavLink>
