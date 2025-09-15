@@ -12,7 +12,6 @@ const Footer = () => {
   return (
     <footer>
       <div
-        
         className="footer-wrapper" >
         <div className="container">
           <div className="row">
