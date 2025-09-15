@@ -5,6 +5,7 @@ import './header.css'
 import { usePathname } from 'next/navigation';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import NavLink from './NavLink';
 config.autoAddCss = false
 
 const Header = () => {
@@ -31,16 +32,13 @@ const Header = () => {
             </div>
             <ul className="menu-items">
               <li>
-                <Link href="/" passHref className={(pathname==="/" ? 'active' : '')} 
-                
-                onClick={e=>reLoad("/")}
+                <NavLink href="/"
                 >
                 Home
-                </Link>
+                </NavLink>
               </li>
               { pathname==="/" && (
 
-               
                 <>
                   <li>
                     <Link href="/#web-development-services"  passHref>
@@ -56,34 +54,22 @@ const Header = () => {
                 </>
               )}
               <li>
-                <Link href="/about/" passHref className={(pathname==="/about/" ? 'active' : '')}
-                
-                
-                onClick={e=>reLoad("/about/")}
-
+                <NavLink href="/about/"
                 >
-                
                   About
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link href="/contact/" passHref className={(pathname==="/contact/" ? 'active' : '')}
-                
-                onClick={e=>reLoad("/contact/")}
-
+                <NavLink href="/contact/" 
                 >
-                
                   Contact
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link href="/careers/" passHref className={(pathname==="/careers/" ? 'active' : '')}
-                
-                onClick={e=>reLoad("/careers/")}
-
+                <NavLink href="/careers/" s
                 >
                 Careers
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <Link href="/" className="logo-wrapper">
