@@ -9,9 +9,7 @@ config.autoAddCss = false
 
 const Header = () => {
   const pathname = usePathname();
-
   const reLoad=(path:string) =>window.location.href=path
-
 
   return (
     <header
@@ -88,10 +86,8 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <a href="/" className="logo-wrapper">
-
+            <Link href="/" className="logo-wrapper">
             <img
-                   
                    src={logo.src}
                    className='logo'
                    alt="Logo"
@@ -100,10 +96,7 @@ const Header = () => {
                      maxHeight: '80px',
                    }}
                  />
-
-
-          
-            </a>
+            </Link>
           </div>
         </nav>
       </div>

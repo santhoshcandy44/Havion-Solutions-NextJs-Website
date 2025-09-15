@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import './footer.css'
 import logo from './assets/logo-white.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,6 +6,7 @@ import { faFacebookF, faXTwitter, faLinkedinIn } from '@fortawesome/free-brands-
 import { faAngleRight, faLocationDot, faPhone,faEnvelope, faClock } from '@fortawesome/free-solid-svg-icons';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import Link from 'next/link';
 config.autoAddCss = false
 const Footer = () => {
   return (
@@ -146,8 +145,7 @@ const Footer = () => {
 
               <div>
           
-              <img
-                   
+              <img   
       src={logo.src}
       alt="Logo"
       style={{
@@ -168,9 +166,9 @@ const Footer = () => {
       <div style={{ borderTop: '1px solid gray', backgroundColor: 'black', color: 'white' }}>
         <div className="text-center p-3">
           © Copyright{' '}
-          <a href="/" className="link-suppress">
+          <Link href="/" className="link-suppress">
             Havion Solutions Pvt Ltd
-          </a>{' '}
+          </Link>{' '}
           {new Date().getFullYear()} | All rights Reserved
         </div>
       </div>
