@@ -33,9 +33,7 @@ import Footer from "./footer"
 import Header from "./header"
 import TopBar from "./topbar"
 
-
 export default function Home() {
-
   useEffect(() => {
     if (typeof window !== 'undefined') {
       import('wowjs/dist/wow.js').then(({ WOW }) => {
@@ -52,9 +50,6 @@ export default function Home() {
       });
     }
   }, []);
-
-  
-  
 
   return (
     <div className="root">
@@ -81,8 +76,7 @@ export default function Home() {
 
 
 function CarouselComponent() {
-  return (
-    
+  return (  
     <Carousel indicators={false} 
     interval={1000}
     >
